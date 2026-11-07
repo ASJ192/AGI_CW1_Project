@@ -1,0 +1,477 @@
+[
+    {
+        "pair_id": 1,
+        "logical_rule": "Transitive",
+        "twin_a_solvable": {
+            "premises": [
+                "All bloops are feps.",
+                "All feps are glops."
+            ],
+            "question": "Are all bloops glops?",
+            "expected": "Yes"
+        },
+        "twin_b_undetermined": {
+            "premises": [
+                "All bloops are feps."
+            ],
+            "question": "Are all bloops glops?",
+            "expected": "Abstain"
+        }
+    },
+    {
+        "pair_id": 2,
+        "logical_rule": "Transitive",
+        "twin_a_solvable": {
+            "premises": [
+                "All widgets are sprockets.",
+                "All sprockets are cogs."
+            ],
+            "question": "Are all widgets cogs?",
+            "expected": "Yes"
+        },
+        "twin_b_undetermined": {
+            "premises": [
+                "All widgets are sprockets."
+            ],
+            "question": "Are all widgets cogs?",
+            "expected": "Abstain"
+        }
+    },
+    {
+        "pair_id": 3,
+        "logical_rule": "Transitive",
+        "twin_a_solvable": {
+            "premises": [
+                "All ziks are yaks.",
+                "All yaks are wuks."
+            ],
+            "question": "Are all ziks wuks?",
+            "expected": "Yes"
+        },
+        "twin_b_undetermined": {
+            "premises": [
+                "All ziks are yaks."
+            ],
+            "question": "Are all ziks wuks?",
+            "expected": "Abstain"
+        }
+    },
+    {
+        "pair_id": 4,
+        "logical_rule": "Transitive",
+        "twin_a_solvable": {
+            "premises": [
+                "All alpha nodes are beta nodes.",
+                "All beta nodes are gamma nodes."
+            ],
+            "question": "Are all alpha nodes gamma nodes?",
+            "expected": "Yes"
+        },
+        "twin_b_undetermined": {
+            "premises": [
+                "All alpha nodes are beta nodes."
+            ],
+            "question": "Are all alpha nodes gamma nodes?",
+            "expected": "Abstain"
+        }
+    },
+    {
+        "pair_id": 5,
+        "logical_rule": "Transitive",
+        "twin_a_solvable": {
+            "premises": [
+                "All red quarks are blue quarks.",
+                "All blue quarks are green quarks."
+            ],
+            "question": "Are all red quarks green quarks?",
+            "expected": "Yes"
+        },
+        "twin_b_undetermined": {
+            "premises": [
+                "All red quarks are blue quarks."
+            ],
+            "question": "Are all red quarks green quarks?",
+            "expected": "Abstain"
+        }
+    },
+    {
+        "pair_id": 6,
+        "logical_rule": "Modus_Ponens",
+        "twin_a_solvable": {
+            "premises": [
+                "If it rains, then the grass is wet.",
+                "It is true that it rains."
+            ],
+            "question": "Is it true that the grass is wet?",
+            "expected": "Yes"
+        },
+        "twin_b_undetermined": {
+            "premises": [
+                "If it rains, then the grass is wet."
+            ],
+            "question": "Is it true that the grass is wet?",
+            "expected": "Abstain"
+        }
+    },
+    {
+        "pair_id": 7,
+        "logical_rule": "Modus_Ponens",
+        "twin_a_solvable": {
+            "premises": [
+                "If the server crashes, then the alarm sounds.",
+                "It is true that the server crashes."
+            ],
+            "question": "Is it true that the alarm sounds?",
+            "expected": "Yes"
+        },
+        "twin_b_undetermined": {
+            "premises": [
+                "If the server crashes, then the alarm sounds."
+            ],
+            "question": "Is it true that the alarm sounds?",
+            "expected": "Abstain"
+        }
+    },
+    {
+        "pair_id": 8,
+        "logical_rule": "Modus_Ponens",
+        "twin_a_solvable": {
+            "premises": [
+                "If the temperature drops, then the pipes freeze.",
+                "It is true that the temperature drops."
+            ],
+            "question": "Is it true that the pipes freeze?",
+            "expected": "Yes"
+        },
+        "twin_b_undetermined": {
+            "premises": [
+                "If the temperature drops, then the pipes freeze."
+            ],
+            "question": "Is it true that the pipes freeze?",
+            "expected": "Abstain"
+        }
+    },
+    {
+        "pair_id": 9,
+        "logical_rule": "Modus_Ponens",
+        "twin_a_solvable": {
+            "premises": [
+                "If the user clicks, then the page loads.",
+                "It is true that the user clicks."
+            ],
+            "question": "Is it true that the page loads?",
+            "expected": "Yes"
+        },
+        "twin_b_undetermined": {
+            "premises": [
+                "If the user clicks, then the page loads."
+            ],
+            "question": "Is it true that the page loads?",
+            "expected": "Abstain"
+        }
+    },
+    {
+        "pair_id": 10,
+        "logical_rule": "Modus_Ponens",
+        "twin_a_solvable": {
+            "premises": [
+                "If the battery dies, then the screen goes black.",
+                "It is true that the battery dies."
+            ],
+            "question": "Is it true that the screen goes black?",
+            "expected": "Yes"
+        },
+        "twin_b_undetermined": {
+            "premises": [
+                "If the battery dies, then the screen goes black."
+            ],
+            "question": "Is it true that the screen goes black?",
+            "expected": "Abstain"
+        }
+    },
+    {
+        "pair_id": 11,
+        "logical_rule": "Modus_Tollens",
+        "twin_a_solvable": {
+            "premises": [
+                "If the code compiles, then the syntax is correct.",
+                "It is not true that the syntax is correct."
+            ],
+            "question": "Is it true that the code compiles?",
+            "expected": "No"
+        },
+        "twin_b_undetermined": {
+            "premises": [
+                "If the code compiles, then the syntax is correct."
+            ],
+            "question": "Is it true that the code compiles?",
+            "expected": "Abstain"
+        }
+    },
+    {
+        "pair_id": 12,
+        "logical_rule": "Modus_Tollens",
+        "twin_a_solvable": {
+            "premises": [
+                "If the vault opens, then the passcode is valid.",
+                "It is not true that the passcode is valid."
+            ],
+            "question": "Is it true that the vault opens?",
+            "expected": "No"
+        },
+        "twin_b_undetermined": {
+            "premises": [
+                "If the vault opens, then the passcode is valid."
+            ],
+            "question": "Is it true that the vault opens?",
+            "expected": "Abstain"
+        }
+    },
+    {
+        "pair_id": 13,
+        "logical_rule": "Modus_Tollens",
+        "twin_a_solvable": {
+            "premises": [
+                "If the engine starts, then there is fuel.",
+                "It is not true that there is fuel."
+            ],
+            "question": "Is it true that the engine starts?",
+            "expected": "No"
+        },
+        "twin_b_undetermined": {
+            "premises": [
+                "If the engine starts, then there is fuel."
+            ],
+            "question": "Is it true that the engine starts?",
+            "expected": "Abstain"
+        }
+    },
+    {
+        "pair_id": 14,
+        "logical_rule": "Modus_Tollens",
+        "twin_a_solvable": {
+            "premises": [
+                "If the plant grows, then it receives sunlight.",
+                "It is not true that it receives sunlight."
+            ],
+            "question": "Is it true that the plant grows?",
+            "expected": "No"
+        },
+        "twin_b_undetermined": {
+            "premises": [
+                "If the plant grows, then it receives sunlight."
+            ],
+            "question": "Is it true that the plant grows?",
+            "expected": "Abstain"
+        }
+    },
+    {
+        "pair_id": 15,
+        "logical_rule": "Modus_Tollens",
+        "twin_a_solvable": {
+            "premises": [
+                "If the message sends, then the network is active.",
+                "It is not true that the network is active."
+            ],
+            "question": "Is it true that the message sends?",
+            "expected": "No"
+        },
+        "twin_b_undetermined": {
+            "premises": [
+                "If the message sends, then the network is active."
+            ],
+            "question": "Is it true that the message sends?",
+            "expected": "Abstain"
+        }
+    },
+    {
+        "pair_id": 16,
+        "logical_rule": "Disjunctive_Syllogism",
+        "twin_a_solvable": {
+            "premises": [
+                "Either the key is in the drawer, or the key is on the table.",
+                "It is not true that the key is in the drawer."
+            ],
+            "question": "Is it true that the key is on the table?",
+            "expected": "Yes"
+        },
+        "twin_b_undetermined": {
+            "premises": [
+                "Either the key is in the drawer, or the key is on the table."
+            ],
+            "question": "Is it true that the key is on the table?",
+            "expected": "Abstain"
+        }
+    },
+    {
+        "pair_id": 17,
+        "logical_rule": "Disjunctive_Syllogism",
+        "twin_a_solvable": {
+            "premises": [
+                "Either the signal is high, or the signal is low.",
+                "It is not true that the signal is high."
+            ],
+            "question": "Is it true that the signal is low?",
+            "expected": "Yes"
+        },
+        "twin_b_undetermined": {
+            "premises": [
+                "Either the signal is high, or the signal is low."
+            ],
+            "question": "Is it true that the signal is low?",
+            "expected": "Abstain"
+        }
+    },
+    {
+        "pair_id": 18,
+        "logical_rule": "Disjunctive_Syllogism",
+        "twin_a_solvable": {
+            "premises": [
+                "Either the package is in transit, or the package is delivered.",
+                "It is not true that the package is in transit."
+            ],
+            "question": "Is it true that the package is delivered?",
+            "expected": "Yes"
+        },
+        "twin_b_undetermined": {
+            "premises": [
+                "Either the package is in transit, or the package is delivered."
+            ],
+            "question": "Is it true that the package is delivered?",
+            "expected": "Abstain"
+        }
+    },
+    {
+        "pair_id": 19,
+        "logical_rule": "Disjunctive_Syllogism",
+        "twin_a_solvable": {
+            "premises": [
+                "Either the suspect went left, or the suspect went right.",
+                "It is not true that the suspect went left."
+            ],
+            "question": "Is it true that the suspect went right?",
+            "expected": "Yes"
+        },
+        "twin_b_undetermined": {
+            "premises": [
+                "Either the suspect went left, or the suspect went right."
+            ],
+            "question": "Is it true that the suspect went right?",
+            "expected": "Abstain"
+        }
+    },
+    {
+        "pair_id": 20,
+        "logical_rule": "Disjunctive_Syllogism",
+        "twin_a_solvable": {
+            "premises": [
+                "Either the data is cached, or the data is fetched live.",
+                "It is not true that the data is cached."
+            ],
+            "question": "Is it true that the data is fetched live?",
+            "expected": "Yes"
+        },
+        "twin_b_undetermined": {
+            "premises": [
+                "Either the data is cached, or the data is fetched live."
+            ],
+            "question": "Is it true that the data is fetched live?",
+            "expected": "Abstain"
+        }
+    },
+    {
+        "pair_id": 21,
+        "logical_rule": "Hypothetical_Syllogism",
+        "twin_a_solvable": {
+            "premises": [
+                "If A activates, then B activates.",
+                "If B activates, then C activates."
+            ],
+            "question": "If A activates, is it true that C activates?",
+            "expected": "Yes"
+        },
+        "twin_b_undetermined": {
+            "premises": [
+                "If A activates, then B activates."
+            ],
+            "question": "If A activates, is it true that C activates?",
+            "expected": "Abstain"
+        }
+    },
+    {
+        "pair_id": 22,
+        "logical_rule": "Hypothetical_Syllogism",
+        "twin_a_solvable": {
+            "premises": [
+                "If the price rises, then demand falls.",
+                "If demand falls, then supply increases."
+            ],
+            "question": "If the price rises, is it true that supply increases?",
+            "expected": "Yes"
+        },
+        "twin_b_undetermined": {
+            "premises": [
+                "If the price rises, then demand falls."
+            ],
+            "question": "If the price rises, is it true that supply increases?",
+            "expected": "Abstain"
+        }
+    },
+    {
+        "pair_id": 23,
+        "logical_rule": "Hypothetical_Syllogism",
+        "twin_a_solvable": {
+            "premises": [
+                "If the switch is flipped, then the circuit closes.",
+                "If the circuit closes, then the light turns on."
+            ],
+            "question": "If the switch is flipped, is it true that the light turns on?",
+            "expected": "Yes"
+        },
+        "twin_b_undetermined": {
+            "premises": [
+                "If the switch is flipped, then the circuit closes."
+            ],
+            "question": "If the switch is flipped, is it true that the light turns on?",
+            "expected": "Abstain"
+        }
+    },
+    {
+        "pair_id": 24,
+        "logical_rule": "Hypothetical_Syllogism",
+        "twin_a_solvable": {
+            "premises": [
+                "If the wind blows, then the turbine spins.",
+                "If the turbine spins, then power is generated."
+            ],
+            "question": "If the wind blows, is it true that power is generated?",
+            "expected": "Yes"
+        },
+        "twin_b_undetermined": {
+            "premises": [
+                "If the wind blows, then the turbine spins."
+            ],
+            "question": "If the wind blows, is it true that power is generated?",
+            "expected": "Abstain"
+        }
+    },
+    {
+        "pair_id": 25,
+        "logical_rule": "Hypothetical_Syllogism",
+        "twin_a_solvable": {
+            "premises": [
+                "If the threshold is met, then the alert triggers.",
+                "If the alert triggers, then the system halts."
+            ],
+            "question": "If the threshold is met, is it true that the system halts?",
+            "expected": "Yes"
+        },
+        "twin_b_undetermined": {
+            "premises": [
+                "If the threshold is met, then the alert triggers."
+            ],
+            "question": "If the threshold is met, is it true that the system halts?",
+            "expected": "Abstain"
+        }
+    }
+]
