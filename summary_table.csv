@@ -1,0 +1,13 @@
+model,condition,twin_a_correct,twin_a_false_abstention,twin_b_correct,twin_b_non_abstention,twin_b_mislabelled,paired_correct,n,mean_chars,max_chars
+gpt-4o,Baseline,25,0,25,0,0,25,25,380,910
+gpt-4o,CoT,25,0,24,1,1,24,25,923,1271
+gpt-4o,Placebo,25,0,25,0,0,25,25,413,945
+gpt-4o,PSV,25,0,25,0,0,25,25,1145,1555
+gemini-3.8-flash,Baseline,25,0,25,0,0,25,25,105,258
+gemini-3.8-flash,CoT,25,0,25,0,0,25,25,400,636
+gemini-3.8-flash,Placebo,25,0,25,0,0,25,25,154,322
+gemini-3.8-flash,PSV,25,0,25,0,0,25,25,745,1071
+llama-3.1-70b-instruct,Baseline,24,1,24,1,1,23,25,378,1969
+llama-3.1-70b-instruct,CoT,24,1,16,9,9,16,25,770,1122
+llama-3.1-70b-instruct,Placebo,24,1,20,5,5,19,25,559,1171
+llama-3.1-70b-instruct,PSV,25,0,25,0,0,25,25,909,1315
