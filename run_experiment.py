@@ -40,7 +40,7 @@ def ask_model(model_id, prompt_text, puzzle_text):
             model=model_id,
             messages=[{"role": "user", "content": full_content}],
             temperature=0.0,
-            max_tokens=1000 # <-- This fixes Claude!
+            max_tokens=1000 
         )
         return response.choices[0].message.content
     except Exception as e:
