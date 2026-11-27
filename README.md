@@ -280,11 +280,12 @@ Every failed response was read in full in `experiment_results.json` and coded by
 | 28 Oct 2026 | Research question and hypotheses drafted | `PROTOCOL_LOCK.md` |
 | 7 Nov 2026, 12:26 | Dataset generated | `dataset.json` |
 | 7 Nov 2026, 13:14 | Protocol Lock and dataset committed | commit `e09170e` |
-| [7 Nov 2026] | Experiment run: 3 models × 4 conditions × 50 items (`experiment_results.json` last saved 15:12) | [OpenRouter activity log] |
+| 7 Nov 2026 | Experiment run: 3 models × 4 conditions × 50 items (`experiment_results.json` last saved 15:12) | OpenRouter activity log |
 | 13 Nov 2026 | Experiment script, raw results and first analysis script committed | commits `deeba55`, `0669dbf`, `2aaabb9` |
 | 14 Nov 2026 | Error found in first analysis script; corrected script added | commit `f4d838e` |
 | 23 Nov 2026 | Tutor feedback received | – |
 | 26 Nov 2026 | Revisions D2–D5 completed | this README, `stats.py` |
+
 The raw results were produced on 7 Nov but committed on 13 Nov. The file timestamp
 and the OpenRouter activity log confirm that the run followed the Protocol Lock.
 
